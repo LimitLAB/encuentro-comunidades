@@ -1,0 +1,90 @@
+{
+  "nombre": "Encuentro de Comunidades — Inscripción",
+
+  "notion": {
+    "dataSourceId": "41c4a026-5e3d-80bc-ae21-000b8758de3e",
+
+    "campos": [
+      {
+        "id": "nombre",
+        "propiedad": "Nombre y apellido",
+        "tipo": "title",
+        "requerido": true,
+        "etiqueta": "tu nombre y apellido"
+      },
+      {
+        "id": "dni",
+        "propiedad": "DNI",
+        "tipo": "texto",
+        "requerido": true,
+        "minDigitos": 7,
+        "etiqueta": "el DNI"
+      },
+      {
+        "id": "nacimiento",
+        "propiedad": "Fecha de nacimiento",
+        "tipo": "fecha",
+        "requerido": true,
+        "etiqueta": "la fecha de nacimiento"
+      },
+      {
+        "id": "whatsapp",
+        "propiedad": "WhatsApp",
+        "tipo": "telefono",
+        "requerido": true,
+        "minDigitos": 8,
+        "etiqueta": "el WhatsApp"
+      },
+      {
+        "id": "mail",
+        "propiedad": "Mail",
+        "tipo": "email",
+        "requerido": true,
+        "etiqueta": "el mail"
+      },
+      {
+        "id": "instagram",
+        "propiedad": "Instagram",
+        "tipo": "texto",
+        "requerido": false,
+        "maxLargo": 100,
+        "etiqueta": "el Instagram"
+      },
+      {
+        "id": "comunidad",
+        "propiedad": "Comunidad",
+        "tipo": "opcion",
+        "requerido": true,
+        "etiqueta": "de qué comunidad venís",
+        "opciones": ["Raptor", "Karen Flores", "Limit Lab"]
+      },
+      {
+        "id": "lesion",
+        "propiedad": "Lesión a tener en cuenta",
+        "tipo": "texto",
+        "requerido": false,
+        "maxLargo": 500,
+        "etiqueta": "la lesión"
+      },
+      {
+        "id": "comprobante",
+        "propiedad": "Comprobante",
+        "tipo": "archivo",
+        "requerido": true,
+        "tiposPermitidos": ["image/", "application/pdf"],
+        "etiqueta": "el comprobante de la transferencia"
+      }
+    ],
+
+    "valoresFijos": [
+      { "propiedad": "Estado", "tipo": "estado", "valor": "Sin empezar" }
+    ]
+  },
+
+  "cupos": {
+    "activo": true,
+    "total": 50,
+    "campo": null,
+    "porOpcion": null
+  }
+}
