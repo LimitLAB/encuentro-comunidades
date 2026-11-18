@@ -56,7 +56,11 @@
         "tipo": "opcion",
         "requerido": true,
         "etiqueta": "de qué comunidad venís",
-        "opciones": ["Raptor", "Karen Flores", "Limit Lab"]
+        "opciones": [
+          { "valor": "raptor", "notion": "Raptor" },
+          { "valor": "karen", "notion": "Karen Flores" },
+          { "valor": "limitlab", "notion": "Limit Lab" }
+        ]
       },
       {
         "id": "lesion",
